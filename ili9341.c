@@ -30,6 +30,7 @@
 #define GPIO_SET *(gpio+7)  // sets   bits which are 1 ignores bits which are 0
 #define GPIO_CLR *(gpio+10) // clears bits which are 1 ignores bits which are 0
 
+/*
 #define DATA0 9
 #define DATA1 11
 #define DATA2 18
@@ -38,6 +39,16 @@
 #define DATA5 25
 #define DATA6 8
 #define DATA7 7
+*/
+
+#define DATA0 11
+#define DATA1 9
+#define DATA2 23
+#define DATA3 18
+#define DATA4 25
+#define DATA5 24
+#define DATA6 7
+#define DATA7 8
 
 #define DC 4
 #define CS 27
